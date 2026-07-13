@@ -154,6 +154,18 @@ export const Formats: import('../sim/dex-formats').FormatList = [
                 // no restrictions, for serious (other than team preview)
                 ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
         },
+        {
+                name: "[Gen 9] Tag-Team Clash",
+                mod: 'gen9',
+                desc: `<b>Requiem League: Tag-Team Clash</b><br />Multi Battle: Each player brings 6, but picks 3.`,
+                section: "Requiem League",
+
+                column: 1,
+                gameType: 'multi',
+                tournamentShow: true,
+                ruleset: ['Standard NatDex', 'Picked Team Size = 3', 'Force Open Team Sheets', 'VGC Timer'],
+                banlist: ['ND Uber', 'ND AG', 'Moody', 'Assist', 'Baton Pass', 'Last Respects', 'Shed Tail', 'Cosmic Power', 'Copycat', 'Revival Blessing', 'Wonder Guard', 'Toxic Debris'], 
+        },
 
         // S/V Doubles
         ///////////////////////////////////////////////////////////////////
