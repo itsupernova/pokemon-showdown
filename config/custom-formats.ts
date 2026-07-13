@@ -163,7 +163,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
                 column: 1,
                 gameType: 'multi',
                 tournamentShow: true,
-                ruleset: ['Obtainable', 'Team Preview', 'Species Clause', 'Nickname Clause', 'Item Clause = 1', 'Adjust Level Down = 50', 'Picked Team Size = 3', 'Cancel Mod'], 
+                ruleset: ['Obtainable', 'Team Preview', 'Species Clause', 'Nickname Clause', 'Item Clause = 1', 'Adjust Level Down = 50', 'Picked Team Size = 3', 'Cancel Mod','VGC Timer', 'Force Open Team Sheets'], 
         },
 
         // S/V Doubles
