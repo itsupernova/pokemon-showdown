@@ -156,15 +156,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
         },
         {
                 name: "[Gen 9] Tag-Team Clash",
-                mod: 'gen9',
+                mod: 'champions',
                 desc: `<b>Requiem League: Tag-Team Clash</b><br />Multi Battle: Each player brings 6, but picks 3.`,
                 section: "Requiem League",
 
                 column: 1,
                 gameType: 'multi',
                 tournamentShow: true,
-                ruleset: ['Standard NatDex', 'Picked Team Size = 3', 'Force Open Team Sheets', 'VGC Timer'],
-                banlist: ['ND Uber', 'ND AG', 'Moody', 'Assist', 'Baton Pass', 'Last Respects', 'Shed Tail', 'Cosmic Power', 'Copycat', 'Revival Blessing', 'Wonder Guard', 'Toxic Debris'], 
+                ruleset: ['Obtainable', 'Team Preview', 'Species Clause', 'Nickname Clause', 'Item Clause = 1', 'Adjust Level Down = 50', 'Picked Team Size = 3', 'Cancel Mod'], 
         },
 
         // S/V Doubles
